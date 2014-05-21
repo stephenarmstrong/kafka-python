@@ -20,7 +20,7 @@ class Tox(Command):
 
 setup(
     name="kafka-python",
-    version="0.9.1",
+    version="0.9.0.linqia.03",
 
     tests_require=["tox", "mock"],
     cmdclass={"test": Tox},
